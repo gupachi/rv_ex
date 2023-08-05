@@ -27,6 +27,10 @@ class MainActivity : ComponentActivity() {
         items.add("b")
         items.add("c")
 
+
+
+
+
         val rv = findViewById<RecyclerView>(R.id.rvItems)
         val rvAdapter = RvAdapter(items)
         rv.adapter = rvAdapter
